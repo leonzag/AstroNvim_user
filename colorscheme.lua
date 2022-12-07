@@ -1,2 +1,2 @@
--- Set colorscheme to use
-return "default_theme"
+-- Set colorscheme to use e.g. "default_theme"
+return "gruvbox"

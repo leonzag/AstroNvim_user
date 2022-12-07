@@ -1,5 +1,8 @@
 -- You can disable default plugins as follows:
 return {
+    ["ellisonleao/gruvbox.nvim"] = {
+        config = require("user.plugins.gruvbox"),
+    },
     -- ["goolord/alpha-nvim"] = { disable = true },
     --
     -- -- You can also add new plugins here as well:

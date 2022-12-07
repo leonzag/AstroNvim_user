@@ -1,10 +1,19 @@
 # My Astronvim configuration
 
-1. Clone AstroNvim (normal installation instructions)\
-    `git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim`
+* Clone AstroNvim (normal installation instructions)
 
-2. Clone your empty new repository to your ~/.config/nvim/lua folder\
-    `git clone https://github.com/username/astronvim_config.git ~/.config/nvim/lua/user`
+```bash
+git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+```
 
-3. Initialize AstroNvim\
-    `nvim  --headless -c 'autocmd User PackerComplete quitall'`
+* Clone your empty new repository to your ~/.config/nvim/lua folder
+
+```bash
+git clone https://github.com/username/astronvim_config.git ~/.config/nvim/lua/user
+```
+
+* Initialize AstroNvim
+
+```bash
+nvim  --headless -c 'autocmd User PackerComplete quitall'
+```

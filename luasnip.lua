@@ -9,4 +9,4 @@ return {
         -- Add paths for including more VS Code style snippets in luasnip
         paths = {},
     },
-},
+}

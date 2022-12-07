@@ -1,4 +1,6 @@
-# My Astronvim configuration
+# AstroNvim User Configuration {style=text-align:center}
+
+## Installation
 
 * Clone AstroNvim (normal installation instructions)
 

@@ -1,16 +1,16 @@
 <h1 align="center">
-    My Astronvim configuration
+    AstroNvim User Configuration
 </h1>
 
-## Installation
+## :hammer: Installation
 
-* Clone AstroNvim (normal installation instructions)
+* Install AstroNvim
 
 ```bash
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
 
-* Clone your empty new repository to your ~/.config/nvim/lua folder
+* Install User Config
 
 ```bash
 git clone https://github.com/username/astronvim_config.git ~/.config/nvim/lua/user

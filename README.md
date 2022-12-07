@@ -2,6 +2,8 @@
     My Astronvim configuration
 </h1>
 
+## Installation
+
 * Clone AstroNvim (normal installation instructions)
 
 ```bash

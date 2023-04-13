@@ -1,8 +1,8 @@
 return {
     "iamcco/markdown-preview.nvim",
     ft = "markdown",
-    build = function() vim.fn["mkdp#util#install"]() end,
-    config = function()
+    build = ":call mkdp#util#install()",
+    init = function()
         vim.api.nvim_exec(
             [[
                 function! OpenMarkdownPreview(url)

@@ -1,0 +1,15 @@
+---
+MD001: false
+MD013:
+  line_length: 160
+  tables: false
+MD033:
+  allowed_elements:
+    - "h1"
+    - "details"
+    - "summary"
+    - "b"
+    - "table"
+    - "tr"
+    - "td"
+    - "a"

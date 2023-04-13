@@ -14,7 +14,6 @@ return {
             "denols",
             "emmet_ls",
             "cssls",
-            "remark_ls",
             "marksman",
             "jsonls",
             "yamlls",

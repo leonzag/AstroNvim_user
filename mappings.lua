@@ -10,8 +10,8 @@ return {
     i = {
         ["<A-k>"] = { "<esc>:m .-2<cr>==gi", desc = "Move line up" },
         ["<A-j>"] = { "<esc>:m .+1<cr>==gi", desc = "Move line down" },
-        ["<A-l>"] = { "<esc>v>", desc = "Move line to the right" },
-        ["<A-h>"] = { "<esc>v<", desc = "Move line to the left" },
+        ["<A-l>"] = { "<esc>v>i", desc = "Move line right" },
+        ["<A-h>"] = { "<esc>v<i", desc = "Move line left" },
     },
     n = {
         ["gy"] = { '"+y', desc = "Copy to system clipboard" },

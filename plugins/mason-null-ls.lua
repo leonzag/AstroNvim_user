@@ -6,6 +6,9 @@ return {
         ensure_installed = {
             "stylua",
             "jq",
+            "flake8",
+            "black",
+            "isort",
             "prettierd",
             "shellcheck",
             "shfmt",
@@ -24,7 +27,7 @@ return {
                 })
             end,
             prettierd = function()
-                require("null-ls").register(require("null-ls").builtins.formatting.prettierd.with {
+                null_ls.register(null_ls.builtins.formatting.prettierd.with {
                     condition = function(utils)
                         return utils.root_has_file "package.json"
                             or utils.root_has_file ".prettierrc"
@@ -34,7 +37,7 @@ return {
                 })
             end,
             eslint_d = function()
-                require("null-ls").register(require("null-ls").builtins.diagnostics.eslint_d.with {
+                null_ls.register(null_ls.builtins.diagnostics.eslint_d.with {
                     condition = function(utils)
                         return utils.root_has_file "package.json"
                             or utils.root_has_file ".eslintrc.json"

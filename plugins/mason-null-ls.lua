@@ -17,8 +17,9 @@ return {
                         "--max-line-length",
                         "120",
                         "--ignore",
-                        "E302 E305 W391 F401",
-                        -- expected 2 lines, blank line at end of file, imported but unused
+                        "E302 E305 W391 F401", -- expected 2 lines, blank line at end of file, imported but unused
+                        "--extend-ignore",
+                        "E203", -- for black-formatter compatibility
                     },
                 })
             end,

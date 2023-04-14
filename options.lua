@@ -16,6 +16,7 @@ return {
         swapfile = false,
         pumblend = 10, -- Make builtin completion menus slightly transparent
         winblend = 10, -- Make floating windows slightly transparent
+        clipboard = "", -- Remove connection to the system clipboard
     },
     g = {
         mapleader = " ", -- sets vim.g.mapleader

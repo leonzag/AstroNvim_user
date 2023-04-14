@@ -14,6 +14,8 @@ return {
         ["<A-h>"] = { "<esc>v<", desc = "Move line to the left" },
     },
     n = {
+        ["gy"] = { '"+y', desc = "Copy to system clipboard" },
+        ["gp"] = { '"+p', desc = "Paste from system clipboard" },
         ["<A-e>"] = { "<cmd>Neotree toggle<cr>", desc = "Toggle Explorer" },
         ["<leader>c"] = {
             function() -- StartPage if no more tabs
@@ -42,6 +44,8 @@ return {
         ["<leader>m"] = { ":MarkdownPreviewToggle<cr>", desc = "Toggle .md preview" },
     },
     v = {
+        ["gy"] = { '"+y', desc = "Copy to system clipboard" },
+        ["gp"] = { '"+p', desc = "Paste from system clipboard" },
         -- increment|decrement
         ["+"] = { "<C-a>", desc = "Inc num" },
         ["-"] = { "<C-x>", desc = "Dec num" },

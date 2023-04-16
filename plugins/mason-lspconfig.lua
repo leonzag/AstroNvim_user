@@ -6,6 +6,7 @@ return {
             "neocmake",
             "rust_analyzer",
             "pyright",
+            "ruff_lsp",
             "taplo",
             "cssls",
             "html",

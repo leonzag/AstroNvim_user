@@ -6,7 +6,7 @@ return {
         ensure_installed = {
             "stylua",
             "jq",
-            "flake8",
+            -- "flake8", -- use `ruff_lsp` instead
             "black",
             "isort",
             "prettierd",

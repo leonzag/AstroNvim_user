@@ -16,7 +16,6 @@ return {
     n = {
         ["gy"] = { '"+y', desc = "Copy to system clipboard" },
         ["gp"] = { '"+p', desc = "Paste from system clipboard" },
-        ["<A-e>"] = { "<cmd>Neotree toggle<cr>", desc = "Toggle Explorer" },
         ["<leader>c"] = {
             function() -- StartPage if no more tabs
                 local bufs = vim.fn.getbufinfo { buflisted = true }
@@ -27,9 +26,6 @@ return {
             end,
             desc = "Close buffer",
         },
-        -- quick save
-        -- ["<c-s>"] = { ":w!<cr>", desc = "save file" },  -- change description but the same command
-        ["<A-;>"] = { ":ToggleTerm<cr>", desc = "ToggleTerm" },
         -- increment|decrement
         ["+"] = { "<C-a>", desc = "Inc num" },
         ["-"] = { "<C-x>", desc = "Dec num" },
@@ -41,7 +37,6 @@ return {
         -- go to start|end line
         ["<S-l>"] = { "$hl", desc = "To end line" },
         ["<S-h>"] = { "0", desc = "To start line" },
-        ["<leader>m"] = { ":MarkdownPreviewToggle<cr>", desc = "Toggle .md preview" },
     },
     v = {
         ["gy"] = { '"+y', desc = "Copy to system clipboard" },
@@ -57,9 +52,5 @@ return {
         -- go to start|end line
         ["<S-l>"] = { "$hl", desc = "To end line" },
         ["<S-h>"] = { "0", desc = "To start line" },
-        ["<leader>m"] = { ":MarkdownPreviewToggle<cr>", desc = "Toggle .md preview" },
-    },
-    t = {
-        ["<A-;>"] = { "<cmd>ToggleTerm<cr>", desc = "ToggleTerm" },
     },
 }

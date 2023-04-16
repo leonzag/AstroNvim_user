@@ -26,4 +26,7 @@ return {
         -- By default the theme is define according to the preferences of the system
         vim.g.mkdp_theme = "dark"
     end,
+    keys = {
+        { "<leader>m", ":MarkdownPreviewToggle<cr>", mode = { "n", "v" }, desc = "Toggle .md preview" },
+    },
 }

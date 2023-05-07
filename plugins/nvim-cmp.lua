@@ -33,7 +33,7 @@ local function user_opts(_, opts)
     end, { "i", "s" })
 
     opts.mapping["<C-l>"] = cmp.mapping(function()
-        if luasnip.expand_or_jumpable() then luasnip.expand_or_jump() end
+        if luasnip.jumpable(1) then luasnip.jump(1) end
     end, { "i", "s" })
 
     opts.mapping["<C-h>"] = cmp.mapping(function()

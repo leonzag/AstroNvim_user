@@ -4,8 +4,13 @@ local fg = "#ebdbb2"
 return {
     "ellisonleao/gruvbox.nvim",
     lazy = false,
+    init = function()
+        vim.cmd([[colorscheme gruvbox]])
+        vim.o.background = "dark"
+    end,
     priority = 1000,
     opts = {
+        inverse = false,
         overrides = {
             NormalFloat = { bg = bg },
             Float = { bg = bg },
@@ -19,6 +24,7 @@ return {
             GruvboxAquaSign = { bg = "none" },
             GruvboxRedSign = { bg = "none" },
             StatusLine = { fg = fg, bg = bg },
+            TroubleNormal = { fg = fg, bg = "none" },
         },
     },
 }

@@ -29,4 +29,13 @@ return {
     { import = "astrocommunity.scrolling.satellite-nvim" },
     { import = "astrocommunity.editing-support.neogen" },
     { import = "astrocommunity.indent.indent-tools-nvim" },
+    { import = "astrocommunity.motion.portal-nvim" },
+    {
+        "portal.nvim",
+        keys = {
+            { "<A-o>", "<cmd>Portal jumplist backward<cr>", desc = "Portal Jump backward" },
+            { "<A-i>", "<cmd>Portal jumplist forward<cr>",  desc = "Portal Jump forward" },
+        },
+    },
+    { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
 }
